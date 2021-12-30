@@ -1,0 +1,7 @@
+FROM python:3.9.1
+
+COPY countries-loader-script.py ./
+COPY countries.json ./
+
+RUN pip install pymongo
+CMD [ "python", "./countries-loader-script.py"]
