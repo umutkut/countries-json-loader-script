@@ -1,3 +1,3 @@
 # countries-json-loader-script
 
-Script to load country information from json file to local mongodb.
+Script to load country information from json file to dockerized mongodb.
